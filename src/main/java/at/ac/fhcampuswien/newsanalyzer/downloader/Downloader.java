@@ -36,6 +36,7 @@ public abstract class Downloader {
             }
         } catch (IOException e) {
             e.printStackTrace();
+
         } finally {
             try {
                 Objects.requireNonNull(is).close();
